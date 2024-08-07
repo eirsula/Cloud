@@ -81,11 +81,11 @@ tags = {
   Name = "Public Instance SG-${local.sufix}"
 }
 }
-
+/*
 module "mybucket" {
   source = "./modulos/s3"
   bucket_name = "bck-terr111111"
-}
+}*/
 
 
 
